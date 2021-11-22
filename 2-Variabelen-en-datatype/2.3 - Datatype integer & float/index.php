@@ -3,10 +3,11 @@
 <body>
 
 <?php
-$leeftijd = 55;
+$leeftijd = 19;
 echo $leeftijd;
-$melkprijs = 0.98;
-echo $melkprijs;
+echo "<br>";
+$gameprijs =  "De nieuwe video game kost €98";
+echo $gameprijs;
 ?>
 
 </body>
