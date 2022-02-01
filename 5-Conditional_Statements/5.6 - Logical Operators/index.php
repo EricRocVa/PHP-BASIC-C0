@@ -1,31 +1,30 @@
 <?php
-$var1 = 8;
-
-if($var1 < 10 && $var1 > 5) {
-    echo "het getal zit tussen de 10 en de 5!";
-} else {
-    echo "het getal is groter dan 10 of kleiner dan 5!";
+$var =12;
+$var1 = 10;
+if($var < 10 && $var1 > 5){
+    echo "het getal zit tussen de 10 en de 5 in" . "<br>";
+}
+else{
+    echo "het getal is groter of kleiner dan tussen de 10 en 5" . "<br>";
 }
 
-$var2 = 29; 
-if ($x == xor 25 == 30) {
-    echo "het getal zit tussen de 25 en de 30!";
-} else {
-    echo "het getal is groter dan 30 of kleiner dan 25!";
+if($var <10 || $var1 > 5){
+    echo "Ik heb eigenlijk nog steeds geen idee wat dit is" . "<br>";
+}
+else{
+    echo"nog steeds weet ik het eigenlijk niet" . "<br>'";
 }
 
-$var3 = 8;
-if ($x == ! 7 == 14) {
-    echo "het getal zit tussen de 7 en de 14!";
-} else {
-    echo "het getal is groter dan 14 of kleiner dan 7!";
+if($var <10 xor $var1 > 5){
+    echo "1 Van de twee waardes zijn goed als ik het goed heb" . "<br>";
+}
+else{
+    echo "Blijkbaar had ik het fout" . "<br>";
 }
 
-$var4 = 16; 
-if ($x == || 13 == 20) {
-    echo "het getal zit tussen de 13 en de 20!";
-} else {
-    echo "het getal is groter dan 20 of kleiner dan 13!";
+if($var <10 != $var1 > 5){
+    echo "Ik weet eigenlijk ook niet wat dit is maar er staat een fout in de module we moeten '!' gebruiken maar het is eigenlijk '!=' anders werkt het niet";
 }
-
-?>
+else{
+    echo"Weet nog steeds niet" . "<br>";
+} 
