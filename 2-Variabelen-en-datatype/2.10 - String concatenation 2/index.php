@@ -1,4 +1,6 @@
 <?php
-$waarde = "<li> Dit is een waarde. </li>";
-$waarde .= "<li> Dit is er nog 1. </li>";
-echo $waarde .= "<li> En hier heb je er nog 1. </li>";
+$item1 = "Brood";
+$item2 = "Friet";
+$item3 = "Pasta";
+echo "<ul>$item1 </ul> <ul> $item2</ul>  <ul>$item3</ul>";
+?>
